@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.wrapper {
+    height: auto;
+    width: auto;
+    background-color: #f2f2f2;
+    padding: 22px 45px;
+    border-radius: 2em;
+    
+}
+
+.wrapper h2{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.wrapper h4{
+    margin: 6px;
+    font-size: 1.5em;
+}
+
+.wrapper:hover{
+    box-shadow: 0 0 3px #000,
+                0 0 3px #000,
+                0 0 3px #000;
+
+    transform: scale(.93);
+}
+
+.wrapper .input-group .input-box input{
+    padding: 11px;
+    border: none;
+    margin: 5px;
+}
+
+.wrapper .input-group .input-box select{
+    padding: 5px;
+    margin: 5px;
+    border: none;
+}
+
+.wrapper .input-group .input-box button{
+    padding: 11px;
+    margin: 5px;
+    background-color: rgb(67, 84, 238);
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 80%;
+    margin-left: 5em;
+}
+.wrapper .input-group .input-box button:hover{
+   transform: scale(1.1);
+}
+.wrapper .input-group:nth-child(7) input{
+    float: right;
+    margin-top: -47px;
+    margin-right: 20px;
+}
+
+.wrapper .input-group:nth-child(7) .fa-user{
+    float: right;
+    margin-top: -34px;
+    margin-right: 14em;
+}
+
